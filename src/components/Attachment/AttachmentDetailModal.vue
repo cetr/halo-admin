@@ -231,3 +231,16 @@ export default {
   }
 }
 </script>
+
+<style>
+.ant-modal {
+  padding: 100px 0 0 0;
+  top: 0;
+}
+
+.ant-modal-content {
+  height: calc(100vh - 200px);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+</style>
